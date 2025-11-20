@@ -1,4 +1,4 @@
-# Azure API Management Policy for AIDR
+# Azure API Management policy for AIDR
 
 This Azure API Management policy integrates with AIDR to protect LLM inputs and
 outputs by validating and optionally transforming content before it reaches the
@@ -24,8 +24,7 @@ LLM or is returned to the client.
 1. Copy the contents of `ai-guard-policy.xml`
 2. In the Azure API Management instance:
    1. Navigate to your API operation
-   2. Go to the **Policies** section
-   3. Select the **Policy code editor** icon next to the **Policies** heading and
-     replace the contents with the contents of `ai-guard-policy.xml`, or merge
+   2. Select the **Policy code editor** icon next to the **Policies** heading.
+   3. Replace the contents with the contents of `ai-guard-policy.xml`, or merge
      them with any existing policies.
    4. Save the policy.
